@@ -7,12 +7,13 @@ if (document.readyState == 'loading') {
 
 function ready() {
 	countWords()
-
+// alert()
+	document.getElementById('evaluatedText').addEventListener('change' , countWords)
 
 }
 
  function countWords() {
-          // alert()
+          
             // Get the input text value
             var text = document.getElementById('evaluatedText').value;
           
