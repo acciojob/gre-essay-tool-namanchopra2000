@@ -34,7 +34,7 @@ function ready() {
             // Add 1 to make the count equal to
             // the number of words 
             // (count of words = count of spaces + 1)
-            numWords += 1;
+            numWords += 0;
           
             // Display it as output
             document.getElementById('wordCount').innerHTML = numWords;
