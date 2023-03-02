@@ -6,12 +6,12 @@ if (document.readyState == 'loading') {
 }
 
 function ready() {
-wordsCount();
+	countWords()
 
 }
 
  function countWords() {
-          alert("hey");
+          
             // Get the input text value
             var text = document
                 .getElementById("inputField").value;
@@ -36,5 +36,5 @@ wordsCount();
             numWords += 1;
           
             // Display it as output
-            document.getElementById("wordCount").innerHTML = numWords;
+            document.getElementById("wordCount").innerHTML = 2;
         }
