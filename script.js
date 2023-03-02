@@ -8,13 +8,13 @@ if (document.readyState == 'loading') {
 function ready() {
 	countWords()
 
+
 }
 
  function countWords() {
-          
+          // alert()
             // Get the input text value
-            var text = document
-                .getElementById("inputField").value;
+            var text = document.getElementById('evaluatedText').value;
           
             // Initialize the word counter
             var numWords = 0;
@@ -36,5 +36,5 @@ function ready() {
             numWords += 1;
           
             // Display it as output
-            document.getElementById("wordCount").innerHTML = 2;
+            document.getElementById('wordCount').innerHTML = numWords;
         }
