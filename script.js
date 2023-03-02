@@ -8,7 +8,7 @@ if (document.readyState == 'loading') {
 function ready() {
 	countWords()
 // alert()
-	document.getElementById('evaluatedText').addEventListener('change' , countWords)
+	document.getElementById('evaluatedText').addEventListener('keyup' , countWords)
 
 }
 
